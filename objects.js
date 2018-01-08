@@ -1,6 +1,6 @@
 var playlist = {bob:"mysong"};
 
-function updatePlaylist(mylist,{newArtist:newSong}){
+function updatePlaylist(mylist,newArtist,newSong){
   Object.assign(mylist,newArtist,newSong)
   return mylist
 }
