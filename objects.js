@@ -2,7 +2,7 @@ var playlist = {bob:"mysong"};
 
 function updatePlaylist(mylist,newArtist,newSong){
   Object.assign(mylist,newArtist,newSong)
-  return plamylistylist
+  return mylist
 }
 
 function removeFromPlaylist(playlist,artist){
